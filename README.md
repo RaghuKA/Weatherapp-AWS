@@ -12,7 +12,6 @@ This is a weather display app for deployment on AWS cloud using terraform.
 + css
 + Javascript
 + AWS account
-+ Cloudformation
 + Terraform
 
 # Usage
