@@ -1,4 +1,4 @@
-# Weatherapp using terraform on AWS
+# WeatherApp
 
 This is a weather display app for deployment on AWS cloud using terraform. 
 
@@ -6,7 +6,7 @@ This is a weather display app for deployment on AWS cloud using terraform.
 *   Displays the weather (temperature and weather description) on a web page
 *	Using terraform (Infrastructure as code) the app is deployed and weather data is displayed on AWS 
 ​
-# Dependencies
+## Dependencies
 + Openweathermap API key. Get it here <https://openweathermap.org/>
 + html
 + css
@@ -14,7 +14,7 @@ This is a weather display app for deployment on AWS cloud using terraform.
 + AWS account
 + Terraform
 
-# Usage
+## Usage
 
 Clone the repository:
 	git clone https://github.com/RaghuKA/Weatherapp-AWS.git
@@ -26,7 +26,7 @@ Open the page OpenWeather/index.html on your web browser. In this page the city 
 
 Then the weather details will be displayed on the web browser.
 
-# AWS deployment using terraform
+## AWS deployment using terraform
 
 Using the following commands the weather app can be deployed on AWS and accessed from the cloud. The terraform infrastructure as code is written in the file "Iac_aws_s3_Webapp.tf"
 
