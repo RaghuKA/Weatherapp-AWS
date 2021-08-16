@@ -42,5 +42,5 @@ To create the resources on AWS and deploy the web app on S3 static web hosting i
 * terraform apply
 
 
-To distroy the AWS resources created using terraform.
+To delete the AWS resources created using terraform.
 * terraform destroy
