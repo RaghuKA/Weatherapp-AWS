@@ -3,7 +3,7 @@
 This is a weather display app for deployment on AWS cloud using terraform. 
 
 *	Connects to Openweathermap API to fetch weather for a given geographic location
-*   Displays the weather (temperature and weather description) on a web page
+* Displays the weather (temperature and weather description) on a web page
 *	Using terraform (Infrastructure as code) the app is deployed and weather data is displayed on AWS 
 ​
 ## Dependencies
