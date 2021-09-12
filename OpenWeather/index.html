@@ -7,26 +7,42 @@
         <title>Weather info</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="CSS/style.css">
     </head>
-    <body>
-        <div>
-            <h1>Weather</h1>
-            <img src="weather-app-icon-2.jpg" alt="Weather logo">
-        </div>
-
-        <div class="input">
-          <input type="text" placeholder="Enter the city" id="cityname" name="cityname">
-          <br>
-          <input type="text" placeholder="Enter Openweather API Key" id="APIkey" name="APIkey">
-          <input type="submit" value="Submit" class="submit">
-        </div>
-
-      <div class="info">
-          <h1 class="Cityname" id="Cityname"></h1>
-          <p class="Temperature"></p>
-          <p class="Weatherdescription"></p>
+    <body>      
+      <div>
+        <h1>Weather</h1>
+        <img src="Images/weather-app-icon-2.jpg" alt="Weather logo">
       </div>
-        <script src="JS/app.js"></script>
+
+      <div class="input">   
+        <input type="text" placeholder="Enter the city" id="cityname" name="cityname">
+        <br>
+        <br>
+        <input type="text" placeholder="Enter Openweather API Key" id="APIkey" name="APIkey">
+        <br>
+        <br>
+        <input type="submit" value="Submit" class="submit">
+      </div>
+
+      <div class="info"></div>
+        <table class="center">
+          <tr>
+            <th>City</th>
+            <th>Temperatue</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td height="25" style="text-align:center" p class="Cityname" id="Cityname"></p></td>
+            <td height="25" style="text-align:center" p class="Temperature"></p></td>
+            <td height="25" style="text-align:center" p class="Weatherdescription"></p></td>           
+          </tr>          
+        </table>         
+      </div>         
+      <div class="weather-icon">
+        <img src="icons/unknown.png" alt="">
+      </div>
+
+      <script src="JS/app.js"></script>
     </body>
 </html>
