@@ -21,7 +21,7 @@ Clone the repository:
 
 Open the page OpenWeather/index.html on your web browser. In this page the city name and Openweathermap API key details have to be entered and click on "Submit" button.
 <p align="center">
-  <img src="Images/WeatherApp_Page.png">
+  <img src="OpenWeather/Images/WeatherApp_Page.png">
 </p>
 
 Then the weather details will be displayed on the web browser.
